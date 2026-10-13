@@ -2,7 +2,7 @@
 
 ## Konteks
 
-UPTD Instalasi Farmasi Kabupaten Tanah Bumbu membutuhkan pengelolaan persediaan obat yang lebih terstruktur dan mudah ditinjau. Informasi produk, stok, batch, masa kedaluwarsa, dan nilai persediaan perlu tersedia dalam satu alur kerja yang dapat dipahami oleh pengguna operasional maupun administrasi.
+UPTD Instalasi Farmasi Daerah membutuhkan pengelolaan persediaan obat yang lebih terstruktur dan mudah ditinjau. Informasi produk, stok, batch, masa kedaluwarsa, dan nilai persediaan perlu tersedia dalam satu alur kerja yang dapat dipahami oleh pengguna operasional maupun administrasi.
 
 SIFARA adalah **Sistem Informasi Farmasi Daerah** yang dikembangkan sebagai aplikasi pengelolaan persediaan untuk konteks tersebut.
 

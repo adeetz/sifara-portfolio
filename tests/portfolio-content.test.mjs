@@ -19,6 +19,8 @@ test('README explains SIFARA in Indonesian and English without offering source a
   assert.match(readme, /## English Summary/);
   assert.match(readme, /source code aplikasi tetap private/i);
   assert.match(readme, /m\.noor\.aditya\.rahman@gmail\.com/);
+  assert.match(readme, /## Inspirasi dan Atribusi/);
+  assert.match(readme, /\[Inventoros\]\(https:\/\/github\.com\/inventoros\/inventoros\)/);
 
   for (const image of ['login.png', 'dashboard.png', 'products.png', 'inventory-valuation.png']) {
     assert.match(readme, new RegExp(`assets/screenshots/${image.replace('.', '\\.')}`));
@@ -33,7 +35,7 @@ test('supporting documents state the publication boundary and private disclosure
     read('LICENSE'),
   ]);
 
-  assert.match(caseStudy, /UPTD Instalasi Farmasi Kabupaten Tanah Bumbu/);
+  assert.match(caseStudy, /UPTD Instalasi Farmasi Daerah/);
   assert.match(caseStudy, /tanpa source code/i);
   assert.match(checklist, /jangan.*kredensial/i);
   assert.match(security, /m\.noor\.aditya\.rahman@gmail\.com/);

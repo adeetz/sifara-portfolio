@@ -4,7 +4,7 @@
 
 ## Ringkasan (Indonesia)
 
-SIFARA adalah portofolio aplikasi pengelolaan persediaan obat untuk konteks **UPTD Instalasi Farmasi Kabupaten Tanah Bumbu**. Fokusnya adalah membantu alur kerja farmasi daerah menjadi lebih tertata: katalog obat, penerimaan dan pergerakan stok, pemantauan batch serta kedaluwarsa, dan ringkasan nilai persediaan.
+SIFARA adalah portofolio aplikasi pengelolaan persediaan obat untuk konteks **UPTD Instalasi Farmasi Daerah**. Fokusnya adalah membantu alur kerja farmasi daerah menjadi lebih tertata: katalog obat, penerimaan dan pergerakan stok, pemantauan batch serta kedaluwarsa, dan ringkasan nilai persediaan.
 
 Portofolio ini memperlihatkan hasil desain produk dan pendekatan engineering tingkat tinggi. Source code aplikasi tetap private untuk melindungi konfigurasi, data pengembangan, dan detail implementasi yang bukan untuk distribusi publik.
 
@@ -46,5 +46,9 @@ Semua tampilan berikut menggunakan data demo fiktif dan telah ditinjau sebelum d
 ## Batas Publikasi
 
 Repository ini bukan distribusi aplikasi dan tidak menyediakan akses ke source code, database, konfigurasi, kredensial, atau lingkungan demo aktif. Lihat [checklist publikasi](docs/demo-publication-checklist.md) dan [kebijakan keamanan](SECURITY.md) untuk detailnya.
+
+## Inspirasi dan Atribusi
+
+SIFARA terinspirasi dari [Inventoros](https://github.com/inventoros/inventoros). Identitas produk, alur inventaris farmasi, tampilan, dan materi portofolio SIFARA dikembangkan serta disesuaikan secara terpisah untuk kebutuhan manajemen persediaan farmasi daerah.
 
 © 2026 Adeetz. Materi portofolio ini dilindungi hak cipta.
