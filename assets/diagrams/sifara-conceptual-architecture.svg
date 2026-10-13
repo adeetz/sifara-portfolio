@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title description">
+  <title id="title">Arsitektur konseptual SIFARA</title>
+  <desc id="description">Pengguna berinteraksi dengan antarmuka web SIFARA, yang menerapkan aturan aplikasi dan mengelola data persediaan dalam basis data relasional.</desc>
+  <defs>
+    <style>
+      .canvas { fill: #f8fafc; }
+      .heading { fill: #0f172a; font: 700 34px system-ui, sans-serif; }
+      .caption { fill: #475569; font: 400 18px system-ui, sans-serif; }
+      .label { fill: #0f172a; font: 700 23px system-ui, sans-serif; }
+      .copy { fill: #475569; font: 400 16px system-ui, sans-serif; }
+      .card { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; }
+      .accent { fill: #0f766e; }
+      .line { stroke: #0f766e; stroke-width: 4; fill: none; marker-end: url(#arrow); }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#0f766e"/>
+    </marker>
+  </defs>
+  <rect class="canvas" width="1200" height="620" rx="28"/>
+  <text class="heading" x="72" y="86">SIFARA · Arsitektur Konseptual</text>
+  <text class="caption" x="72" y="122">Gambaran tingkat tinggi untuk portofolio, tanpa konfigurasi atau akses lingkungan.</text>
+
+  <rect class="card" x="72" y="210" width="270" height="230" rx="20"/>
+  <rect class="accent" x="72" y="210" width="270" height="14" rx="7"/>
+  <text class="label" x="106" y="284">Pengguna</text>
+  <text class="copy" x="106" y="326">Administrasi farmasi</text>
+  <text class="copy" x="106" y="356">dan pengguna operasional</text>
+  <text class="copy" x="106" y="400">Mengakses alur kerja</text>
+  <text class="copy" x="106" y="426">sesuai peran.</text>
+
+  <rect class="card" x="465" y="178" width="270" height="294" rx="20"/>
+  <rect class="accent" x="465" y="178" width="270" height="14" rx="7"/>
+  <text class="label" x="499" y="252">Aplikasi SIFARA</text>
+  <text class="copy" x="499" y="294">Antarmuka web</text>
+  <text class="copy" x="499" y="326">Aturan bisnis &amp; validasi</text>
+  <text class="copy" x="499" y="358">Otorisasi berbasis peran</text>
+  <text class="copy" x="499" y="390">Jejak perubahan</text>
+  <text class="copy" x="499" y="432">Laporan persediaan</text>
+
+  <rect class="card" x="858" y="210" width="270" height="230" rx="20"/>
+  <rect class="accent" x="858" y="210" width="270" height="14" rx="7"/>
+  <text class="label" x="892" y="284">Data Persediaan</text>
+  <text class="copy" x="892" y="326">Produk &amp; satuan</text>
+  <text class="copy" x="892" y="356">Batch &amp; kedaluwarsa</text>
+  <text class="copy" x="892" y="400">Transaksi stok</text>
+  <text class="copy" x="892" y="426">Nilai persediaan</text>
+
+  <path class="line" d="M342 325 H447"/>
+  <path class="line" d="M735 325 H840"/>
+  <text class="caption" x="380" y="300">permintaan</text>
+  <text class="caption" x="758" y="300">data</text>
+</svg>

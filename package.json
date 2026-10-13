@@ -1,0 +1,9 @@
+{
+  "name": "sifara-portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "test:public-safety": "node scripts/check-public-safety.mjs"
+  }
+}
